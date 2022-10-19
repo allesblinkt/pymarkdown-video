@@ -1,6 +1,6 @@
 from markdown.extensions import Extension
 from markdown.treeprocessors import Treeprocessor
-from markdown.util import etree
+from markdown.treeprocessors import etree
 import urllib.parse as urlparse, os
 
 # List of video file extension and format supported
